@@ -64,6 +64,6 @@
     - 安装完毕
 
     ### 运行：
-    > 进入/var/lib/virtuoso/db
-    > 执行virtuoso-t -f &
-    > 之后可以进入下面链接进行操作 http://localhost:8890/
+    1. 进入/var/lib/virtuoso/db
+    2. 执行virtuoso-t -f &
+    3. 之后可以进入下面链接进行操作 http://localhost:8890/
