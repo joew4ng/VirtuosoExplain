@@ -4,8 +4,8 @@
 
 ## Virtuoso 版本
 **Virtuoso分收费版和开发者版**
-- 收费版本(请从官网下载)
-- 开发者版本[下载](http://sourceforge.net/projects/virtuoso/files/)
+- 收费版本(请从官网下载，99美金)
+- 开发者版本[下载]( https://github.com/openlink/virtuoso-opensource)
 
 ## Virtuoso 系统架构
 ![Virtuoso架构](https://github.com/joew4ng/VirtuosoExplain/blob/master/Virtuoso/VirtuosoArchitecture.png?raw=true)
