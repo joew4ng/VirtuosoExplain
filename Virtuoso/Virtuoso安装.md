@@ -26,8 +26,8 @@
   ```
   
   ## Virtuoso 数据库 在 Linux上安装
-  安装Virtuoso，按照Github上面的提示，需要确保安装下面的程序的最低版本
-
+  ### 安装Virtuoso，按照Github上面的提示，需要确保安装下面的程序的最低版本
+    ```
     Package  Version                         From
     ——-  ——-                         —-
     autoconf 2.57               http://www.gnu.org/software/autoconf/
@@ -40,8 +40,10 @@
     m4       1.4.1              http://www.gnu.org/software/m4/
     make     3.79.1             http://www.gnu.org/software/make/
     OpenSSL  0.9.7i             http://www.openssl.org/
+    ```
 
-    通过下面的指令，在命令行里运行，来检查是否满足基本条件：
+    ### 通过下面的指令，在命令行里运行，来检查是否满足基本条件：
+    ```
     autoconf –version
     automake –version
     libtoolize –version
@@ -52,16 +54,16 @@
     m4 –version
     make –version
     openssl version
+    ```
 
-    安装的过程不复杂，进入克隆下来的目录，逐次运行下面命令，要保证有至少800MB的硬盘空间：
-    ./autogen.sh
-    ./configure –with-layout=debian
-    make
-    sudo make install
-    安装完毕
+    ### 安装的过程不复杂，进入克隆下来的目录，逐次运行下面命令，要保证有至少800MB的硬盘空间：
+    - ./autogen.sh
+    - ./configure –with-layout=debian
+    - make
+    - sudo make install
+    - 安装完毕
 
-    运行：
-    进入/var/lib/virtuoso/db
-    执行virtuoso-t -f &
-    之后可以进入下面链接进行操作
-    http://localhost:8890/
+    ### 运行：
+    > 进入/var/lib/virtuoso/db
+    > 执行virtuoso-t -f &
+    > 之后可以进入下面链接进行操作 http://localhost:8890/
